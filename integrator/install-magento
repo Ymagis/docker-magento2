@@ -22,6 +22,5 @@ su www-data <<EOSU
                                         --http-cache-hosts=$MAGENTO_IP_PORT \
                                         --cache-backend=redis \
                                         --cache-backend-redis-server=$REDIS_SERVER \
-                                        --cache-backend-redis-password=$REDIS_PASSWORD \
                                         --cache-backend-redis-db=$USE_REDIS_DB_CACHE
 EOSU
